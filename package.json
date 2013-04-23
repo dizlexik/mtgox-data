@@ -1,0 +1,35 @@
+{
+  "name": "mtgox-data",
+  "description": "Access the MtGox public data APIs.",
+  "version": "0.0.1",
+  "keywords": [
+    "bitcoin",
+    "mtgox"
+  ],
+  "author": {
+    "name": "Joe Lutz",
+    "email": "lutz.joe@gmail.com"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dizlexik/mtgox-data.git"
+  },
+  "scripts": {
+    "test": "mocha -u bdd -R spec"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "lodash": "1.2.x",
+    "request": "2.16.x"
+  },
+  "devDependencies": {
+    "chai": "1.5.x",
+    "concat-stream": "0.1.x",
+    "mocha": "1.9.x",
+    "nock": "0.17.x"
+  }
+}

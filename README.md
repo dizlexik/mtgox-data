@@ -1,4 +1,11 @@
-# Example
+# MtGox Data
+
+## Install
+```sh
+npm install mtgox-data
+```
+
+## Example
 ```js
 var MtGox = require('mtgox-data');
 
@@ -9,7 +16,7 @@ mtgox.ticker(function(err, data) {
 });
 ```
 
-# Methods
+## Methods
 
 ### MtGox([options])
 * `options` - Defaults: `{ timeout: 5000 }`
